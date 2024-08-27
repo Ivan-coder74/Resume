@@ -1,0 +1,53 @@
+/* styles.css */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.column {
+  width: 48%;
+}
+
+.profile-img {
+  border-radius: 0%;
+  width: 150px;
+}
+
+@media (max-width: 768px) {
+  .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: auto;
+  padding: 20px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.button:active {
+  background-color: #003d7a;
+  transform: scale(0.98);
+}
