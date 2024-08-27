@@ -1,1 +1,1 @@
-# Resume - Vasyl Kuzma
+# Resume 
